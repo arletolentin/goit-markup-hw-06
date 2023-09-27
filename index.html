@@ -343,7 +343,19 @@
                     </li>
                 </ul>
             </div>
-        </div>    
+            <form class="footer-form">
+                <label>
+                    Subscribe
+                    <input type="email" placeholder="E-mail" name="email">
+                </label>
+                <button class="footer-subscribe-button" type="submit">Subscribe
+                    <svg class="submit-icon">
+                        <use href="./images/icons.svg#subscribe">
+                    </svg>
+                </button>
+            </form> 
+        </div>
+   
     </footer>
     <div class="modal is-hidden" data-modal>
         <div class="modal-content">
@@ -361,11 +373,15 @@
                     E-mail
                     <input type="email" name="email">
                 </label>
-                <label>
-                    <input type="checkbox" name="agree">
-                    I accept the terms and conditions of the Privacy Policy
+                <label class="client-info-comment">
+                    Comments
+                    <textarea name="comments" placeholder="Text Input"></textarea>
                 </label>
-                <button type="submit">Send</button>
+                <label class="client-info-checkbox">
+                    <input type="checkbox" name="agree">
+                     <span class="checkbox-text">I accept the terms and conditions of the</span><span class="checkbox-privacy">Privacy Policy</span>
+                </label>
+                <button class="submit-button" type="submit">Send</button>
             </form>
             <button class="modal-close" data-modal-close>
                   <svg class="modal-icon">
