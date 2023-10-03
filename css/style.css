@@ -27,6 +27,9 @@ ul {
   margin: 0;
   padding: 0;
 }
+input, textarea {
+  outline: none;
+}
 a {
   text-decoration: none;
 }
@@ -751,4 +754,12 @@ label.client-info-checkbox {
 .submit-icon {
   width: 24px;
   height: 24px;
+}
+.modal-svg {
+  height: 16px;
+  width: 16px;
+  display: flex;
+}
+.form-label-name {
+  position: absolute;
 }
